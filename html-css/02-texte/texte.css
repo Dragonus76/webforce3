@@ -1,0 +1,77 @@
+@import url(style.css);
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+English');
+
+@font-face { /* utilisation d'une police css3 à l'aide d'une url */
+	font-family: "Cabin";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Cabin Regular"), local("Cabin-Regular"), url("https://themes.googleusercontent.com/static/fonts/cabin/v4/JEgmtEDzc-IH8jBshQXrYA.woff") format("woff");
+}
+@font-face { /* utilisation d'une police css3  à l'aide de fichier */
+    font-family: 'folksbold';
+    src: url('police/Folks-Bold-webfont.eot');
+    src: url('police/Folks-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/Folks-Bold-webfont.woff') format('woff'),
+         url('police/Folks-Bold-webfont.ttf') format('truetype'),
+         url('police/Folks-Bold-webfont.svg#folksbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}/*Adresse de polices web    */
+
+h1{
+	margin: 0;
+	/*font-weight: bold;*/
+	/*font-size: 16px;*/
+	text-shadow: 2px 1px grey;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform: uppercase;
+	/*fonction text-transform : capitalize / uppercase/ lowercase/ none*/
+}
+h2{
+	font-family: 'IM Fell DW Pica', serif;
+}
+h4{
+	font-family: 'IM Fell English', serif;	
+}
+b {
+	color: red;
+}
+p{
+	font-size: 15px;
+	line-height: 19px;
+	width: 400px;
+}
+em{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+/* Nous cassons (reset) l'effet d'héritage pour toutes les balises suceptible d'être concernées */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+h1{
+	border: solid 2px #ff0000;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 20px 30px 40px;
+	padding: 10px 20px 30px 40px;
+	background-color: whitesmoke;
+	text-align: center;
+}
+p{
+	border: solid 1px #00ff00;
+}
+
+span{ /* se centre en pourcentage*/
+	border: solid 1px #0000ff;
+	text-align: center;
+	display: block;
+}
+
+div{
+	box-sizing: border-box;
+	border: solid 1px skyblue;
+	width: 500px;
+	padding: 0 50px;
+	border: solid 10px;
+}
+/* MARGIN / PADDING
+margin/padding : 10px 9px 8px 7px;
+4 valeurs: sens des aiguilles d'une montre débutant à minuit
+3 valeurs: 1er en haut, 2eme gauche droite, 3eme en bas
+2 valeurs: 1ere haut et bas, 2eme gauche droite
+1 valeur: 4 directions
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

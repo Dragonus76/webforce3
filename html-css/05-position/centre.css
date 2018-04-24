@@ -1,0 +1,13 @@
+#conteneur{
+	margin: 0 auto;
+	width:960px;
+	height:458px;
+	background:cyan;
+	padding:30px;
+}
+.a, .b{
+	border:1px solid;
+	width:400px;
+	height:150px;
+	display: inline-block;
+}

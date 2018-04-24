@@ -1,0 +1,14 @@
+body{margin:0;}
+p{
+	margin:0;
+	color: orange;
+	font-weight: bold;
+	position: absolute;
+	bottom:0;
+	left:0;
+}
+/*
+Pour absolute il est possible d'utiliser les propriétés top, right, bottom et left.
+
+Sont acceptées les valeurs exprimées en pixels, en pourcentage, ainsi que les valeurs négatives.
+*/

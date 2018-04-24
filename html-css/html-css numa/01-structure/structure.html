@@ -1,0 +1,77 @@
+<!-- Commentaire HTML -->
+<!--
+Un élément, par exemple <header>, commence à la balise ouvrante (ou balise d'ouverture) et se termine après la balise fermante (fermeture)
+Les balises indiquent la nature du contenu qu'elles encadrent. Elles disent: ceci est mon titre, ceci est un header, ou un paragraphe de texte.
+Certains éléments sont des balises ne contenant pas de contenu texte ou d'autres éléments, on parle d'élément vide, de balise orpheline ou de balise auto-fermante. (exemple meta)
+
+Une balise ouvrante peut contenir des informations additionnelles: les attributs.
+Certaines balises necessitent parfois un attribut pour fonctionner, d'autres fois ils seront optionnels.
+les attributs consistent en deux parties:
+- un nom d'attribut suivi du signe "="
+- une valeur de l'attribut entre guillemet.
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Titre de ma page</title>
+		<meta name="description" content="Cela est la description de mon site web" />
+		<link rel="stylesheet" href="structure.css" />
+	</head>
+	<body>
+		<!-- 
+		L'élément HTML <header> représente un groupe de contenu introductif ou de contenu aidant à la navigation. Il peut contenir des éléments de titre, mais aussi d'autres éléments tels qu'un logo, un formulaire de recherche, etc.
+		-->
+		<header>
+			HAUT DE PAGE
+		</header>
+		<!-- 
+		L'élément HTML <nav> représente une section d'une page ayant des liens vers d'autres pages ou des fragments de cette page. Autrement dit, c'est une section destinée à la navigation dans un document (avec des menus, des tables des matières, des index, etc.).
+		-->
+		<nav>
+			MENU
+		</nav>
+		<!--
+		L'élément HTML <section> représente une section générique d'un document, par exemple un groupe de contenu thématique. Une section commence généralement avec un titre. Ainsi, un menu de navigation devrait être délimité par un élément <nav> mais une liste de résultat de recherche, qui ne dispose pas d'élément spécifique pour être représentée, pourrait être englobée dans un élément <section>.
+		-->
+		<section>
+			CONTENU
+			<!--
+			L'élément HTML <div> (qui signifie division du document) est un conteneur générique qui permet d'organiser le contenu sans représenter rien de particulier. Il peut être utilisé afin de grouper d'autres éléments pour leur appliquer un style (en utilisant les attributs class ou id) ou parce qu'ils partagent des attributs aux valeurs communes, tel que lang. Il doit uniquement être utilisé lorsqu'aucun autre élément sémantique (par exemple <article> ou <nav>) n'est approprié.
+			-->
+			<div>
+				DIV
+			</div>
+			<div>
+				DIV2
+			</div>
+			<!--
+			L'élément HTML <span> est un conteneur générique en ligne (inline) pour les contenus phrasés. Il ne représente rien de particulier. Il peut être utilisé pour grouper des éléments afin de les mettre en forme (grâce aux attributs class ou id et aux règles CSS) ou parce qu'ils partagent certaines valeurs d'attribut comme lang. Il doit uniquement être utilisé lorsqu'aucun autre élément sémantique n'est approprié. <span> est très proche de l'élément <div>, mais l'élément <div> est un élément de bloc, alors que <span> est un élément en ligne.
+			-->
+			<span>
+				SPAN
+			</span>
+			<span>
+				SPAN2vefefefefefefefefefefef
+			</span>
+		</section>
+		<!--
+		L'élément HTML <article> représente du contenu autonome dans un document, une page, une application, ou un site. Ceci peut être un message sur un forum, un article de journal ou de magazine, une parution sur un blog, un commentaire d'utilisateur, un widget ou gadget interactif, ou tout autre élément de contenu indépendant. Ce contenu est prévu pour être distribué ou réutilisé indépendamment (par exemple dans un flux de syndication).
+		-->
+		<article>
+			ARTICLE
+		</article>
+		<!--
+		L'élément HTML <aside> (N.D.T. aside signifie aparté) est une section de la page dont le contenu est indirectement lié à ce qui l'entoure et qui pourrait être séparé de cet environnement. De telles sections sont souvent représentées par des colonnes annexes ou des encadrés ; elles contiennent généralement des explications telles qu'un glossaire, ou plus rarement, des publicités, la biographie de l'auteur, ou, dans les applications web, des informations sur le profil ou des liens vers des blogs similaires.
+		-->
+		<aside>
+			ASIDE
+		</aside>
+		<!--
+		L'élément HTML <footer> représente le pied de page de la section ou de la racine de sectionnement la plus proche. Un pied de page ou de section contient habituellement des informations sur l'auteur de la section, les données relatives au droit d'auteur (copyright) ou les liens vers d'autres documents en relation.
+		-->
+		<footer>
+			BAS DE PAGE
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+body{margin:0;}
+div{
+	margin: 0 auto;
+	height: 1200px;
+	width: 960px;
+	background: #08265B url(images/fond1.jpg) right top/50%  no-repeat;
+}
+/*
+background-color: #08265B;
+background-image: url(../00-partage/images/fond1.jpg);
+background-position:0 -300px;
+background-size: 1500px;
+background-repeat: no-repeat; (ou repeat-x et repeat-y)
+
+*/

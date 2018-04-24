@@ -1,0 +1,25 @@
+body{
+	background: skyblue;
+}
+a:link{
+	color: #333;
+	text-decoration: none;
+}
+/* le lien au moment du survol */
+a:hover{
+	color: white;
+	background: #333;
+}
+/* le lien déja cliqué */
+a:visited{
+	color: #999;
+}
+/* le lien au moment du clic */
+a:active{
+	color: yellow;
+}
+
+
+
+
+

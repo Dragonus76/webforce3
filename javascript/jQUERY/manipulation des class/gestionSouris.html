@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Gestion de la Souris</title>
+    <style>
+        body {
+                margin: 0 auto;
+                width: 90%;
+            }
+        .rectangle {
+                /* structure */
+                height: 300px;
+                width: 400px;
+
+                /* presentation */
+                background-color: royalblue;
+                border-radius: 8px;
+                transition: background-color 0.8s;
+            }
+        .rectangle.good {
+                background-color: limegreen !important;
+            }
+        .rectangle.important {
+                background-color: firebrick;
+            }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+   
+
+    <h1>Gestion de la Souris</h1>
+    <br />
+
+    <button id='toggle-rectangle'>Cacher / Afficher le rectange</button>
+
+    <p id="text">Survoler à la souris le rectangle ci-dessous pour qu'il change de couleur !</p>
+
+    <p>Ou double-cliquez dessus... :-)</p>
+
+    <div class='rectangle'></div>
+
+    <script type="text/javascript" src="gestionSouris.js"></script>
+
+</body>
+
+</html>
+
+
+

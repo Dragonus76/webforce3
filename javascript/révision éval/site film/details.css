@@ -1,0 +1,42 @@
+header p{
+	color: lawngreen;
+}
+body{
+	color: white;
+	background: purple;
+}
+footer{
+	background-color: lightgrey;
+	color: #000;
+	margin-top: 40px;
+	padding-bottom: 30px;
+}
+form input{
+	padding: 5px;
+	width: 350px;
+	margin: 10px;
+}
+form textarea{
+	padding: 5px;
+	width: 350px;
+	margin: 10px;
+}
+form button{
+	padding: 5px;
+	width: 350px;
+	margin: 10px;
+	font-size: 25px;
+	background-color: lightblue;
+}
+.img{
+	text-align: center;
+}
+.error{
+	text-align: center;
+	color: red;
+}
+button{
+	text-align: center;
+	width: 70px;
+
+}

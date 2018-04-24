@@ -1,0 +1,78 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*{
+	box-sizing:border-box;
+}
+#container{
+	background: #40A497;
+	margin:0 auto;
+	width:1000px;
+	color: #fff;
+}
+
+.haut{
+	background:#A4409A;
+	height:80px;
+}
+.menu{
+	background:yellow;
+	height:30px;
+	color: black;
+}
+.a{
+	background:red;
+	height:500px;
+	width:25%;
+	font-size:45px;
+	color:grey;
+	float:left;
+	border:solid black 2px;
+	padding:10px;
+}
+.b{
+	background:blue;
+	height:500px;
+	width:50%;
+	float:left;
+	font-size:45px;
+	color:grey;
+	border:solid black 2px;
+	padding:10px;
+}
+.c{
+	background:red;
+	height:500px;
+	width:25%;
+	float:left;
+	font-size:45px;
+	color:grey;
+	border:solid black 2px;
+	padding:10px;
+}
+
+.bas{
+	background:#E80B28;
+	height:60px;
+	border:2px solid black;
+}
+.clear{
+	clear: both;
+}

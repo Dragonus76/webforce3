@@ -1,0 +1,35 @@
+body{
+	background: rgb(228, 228, 228);
+}
+h1{
+	background-color: silver;
+	color: white;
+}
+
+h2, h3{
+	text-align: center;
+}
+h3{
+	color:grey;
+	font-size: 15px;
+}
+header{
+	margin-bottom: 70px;
+}
+.fondContainer{
+	background: #fff;
+	padding-top: 25px;
+}
+.imgHover{
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	text-align: center;
+}
+.imgHover:hover{
+	background-color: #273d60;
+	color:#fff;
+}
+header p{
+	color: lawngreen;
+}

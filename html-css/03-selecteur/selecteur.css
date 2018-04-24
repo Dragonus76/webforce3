@@ -1,0 +1,113 @@
+p{					/* Tous les p*/
+	color: red;
+}
+p:first-child {
+	color: green;
+}					/* premier élément p de la page ou premier élément p d'un parent*/
+p:last-child {
+	color: green; /* Dernier élément p*/
+}
+p:nth-child(even){
+	color: blue;
+}					/* éléments pairs*/
+
+p:nth-child(odd){
+	color: brown;
+}p:nth-child(5),p:nth-child(6){
+	color: orange;
+}					/* */
+div:not(.zone_b){
+	font-weight: bold;
+}
+
+.zone_a{
+	color: #f56f56;
+}
+.zone_b{
+	color: #996633;
+}
+.couleurbleu{
+	color: blue;
+}
+#zone_c{
+	color: #98f32f;
+}
+#zone_d{
+	color: #000;
+}
+#zone_d span{
+	color: #32ff32;
+}
+
+.zone_b span{
+	text-transform: uppercase;
+}
+#zone_c:after{
+	content: "x";
+}
+
+span.zone{
+	color: red;
+}
+/* L'utilisation des child n'est pas tres rassurante dans le cas ou le code serait amené à évoluer, il est préférable d'utiliser des class et des id
+
+Différence entre class et Id
+
+-une class est appelée par un "."
+-un id est appelée par un "#"
+
+Le w3c préconise d'utiliser chaque id une seule fois par page web (mais ce n'est pas une obligation)
+
+Quelques règles d'écriture:
+div.zone{} => "va me chercher la div qui posséde la class 'zone'"
+div .zone{} => "va me chercher la class zone qui se trouve à l'intérieur de la div" (C'est l'espace qui change la signification)
+
+.maclasse{}, .maclasse2{} :il y a des virgules on applique le style sur plusieurs éléments.*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

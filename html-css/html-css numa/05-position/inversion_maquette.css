@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	color: white;
+}
+header{
+	background: red;
+	min-height: 80px;
+}
+.container{
+	border: 1px solid;
+	width: 960px;
+	margin: 0 auto;
+}
+section{ 
+	background: lightgrey;
+	min-height: 500px;
+}
+footer{ 
+	background: grey;
+	min-height: 80px;
+}

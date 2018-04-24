@@ -1,0 +1,14 @@
+ul.flotte{
+	list-style: none;
+	/* circle / square / disc / none */
+	padding: 0;
+}
+ul.flotte li{
+	background: url(fleche.gif) no-repeat;
+	background-position: left 9px;
+	background-size: 5px;
+	padding-left: 10px;
+	float:left;
+	margin-right: 15px;
+}
+.clear{clear:both;}

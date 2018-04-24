@@ -1,0 +1,24 @@
+table{
+	/* border-collapse permet de styliser l'espacement de cellule inhérent au tableau par defaut */
+	border-collapse: collapse;
+	width: 960px;
+} 
+td,th{
+	border: 1px solid;
+	padding: 10px;
+}
+th{
+	background: #f40c80;
+}
+.intitule{
+	width: 400px;
+}
+.bgimage{
+	background: url(../04-image/images/image.jpg);
+	height: 400px;
+}
+
+
+
+
+

@@ -1,0 +1,56 @@
+*{
+	box-sizing:border-box;
+	}
+#container{
+	width:1000px;
+}
+
+header{
+	background:red;
+	height:50px;
+	line-height:60px;
+}
+nav{
+	background:yellow;
+	height:30px;
+	line-height:30px;
+}
+footer{
+	background:green;
+	min-height:70px;
+}
+.gauche{
+	width:25%;
+	float:left;
+}
+.center{
+	background:blue;
+	width:50%;
+	height:500px;
+	float:left;
+}
+.droite{
+	width:25%;
+	float:left;
+}
+.pz1{
+	background:red;
+	height:250px;
+}
+.pz2{
+	background:brown;
+	height:250px;
+}
+
+.pz4{
+	background:green;
+	height:250px;
+}
+.pz5{
+	background:purple;
+	height:250px;
+}
+
+.clear{
+	clear:both;
+}

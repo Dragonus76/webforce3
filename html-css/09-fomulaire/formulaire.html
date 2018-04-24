@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8" />
+		<title>Formulaire</title>
+		<link rel="stylesheet" href="formulaire.css" />
+	</head>
+	<body>
+		<form method="get" action="#" enctype="multipart/form-data">
+			<div>
+				<label for="pseudonyme">Pseudo</label>
+				<input type="text" name="pseudo" id="pseudonyme" placeholder="votre pseudo" required />
+			</div>
+			<div>
+				<label for="mdp">Mot de passe</label>
+				<input id="mdp" type="password" name="mdp" />
+			</div>
+			<div>
+				<label for="mail">Email</label>
+				<input type="email" id="mail"name="email"  />
+			</div>
+			<div>
+				<label for="avatar">Avatar</label>
+				<input type="file" id="avatar" name="avatar" />
+			</div>
+			<div>
+				<label for="pays">Votre pays</label>
+				<!-- Ajouter l'attribut multiple pour permettre une selection de plusieurs réponses. -->
+				<select id="pays" name="pays">
+					<option disabled selected>Choisissez</option>
+					<optgroup label="europe">
+						<option value="fr"><strong>France</strong></option>
+						<option value="it" >Italie</option>
+						<option value="sp">Espagne</option>
+					</optgroup>
+					<optgroup label="asie">
+						<option value="th">Thailande</option>
+						<option value="ca" >Cambodge</option>
+						<option value="ch">Chine</option>
+						<option value="eu">Europe</option>
+					</optgroup>
+				</select>
+			</div>
+			<div>
+				<label for="choix">Quels sont vos fruits préférés ?</label>
+				<input type="checkbox" name="choix" value="orange" /> Orange
+				<input type="checkbox" name="choix" value="fraise" /> Fraise
+				<input checked type="checkbox" name="choix" value="poire" /> Poire
+			</div>
+			<div>
+				<label for="civilite">Civilités</label>
+				<input type="radio" name="civilite" value="femme" /> Femme
+				<input type="radio" name="civilite" value="homme" /> Homme
+			</div>
+			<div>
+				<label for="ville">Ville</label>
+				<input type="text" id="ville" name="ville" list="france" />
+				<datalist id="france">
+					<option>Paris</option>
+					<option>Marseille</option>
+					<option>Lyon</option>
+					<option>Nice</option>
+					<option>Lille</option>
+					<option>Guingamp</option>
+				</datalist>
+			</div>
+			<div>
+				<label for="cp">Code postal</label>
+				<input type="text" id="cp" name="cp" pattern="[0-9]{5}" maxlength="5" title="5 chiffres requis entre 0 et 9" />
+				<!-- l'attribut pattern attend une expression régulière (ou regex) -->
+			</div>
+			<div>
+				<label for="adresse">Adresse</label>
+				<textarea id="adresse" name="adresse" rows="5" cols="25"></textarea>
+			</div>
+			<div>
+				<input type="reset" name="efface" value="Recommencer"  />
+				<input type="submit" value="S'inscrire" />
+			</div>
+		</form>
+	</body>
+</html>

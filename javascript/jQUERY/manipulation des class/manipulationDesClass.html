@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <style>
+        .danger
+        {
+            border: 1px solid red;
+            font-weight: bold;
+        }
+        .important
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <button id='btn1'>Changer le background du titre</button>
+    <button id='btn2'>Changer la couleur du texte</button>
+
+    <h1>Exemple de manipulation des classes CSS d'une balise avec la propriété classList</h1>
+
+    <p id="text">Ceci est un texte important et dangereux !</p>
+
+    <script type="text/javascript">
+        //1 Selection des éléments necessaire
+            var btnElt = document.getElementById('btn2');
+            var paragrapheElt = document.querySelector('p');
+
+            var btnElt2 = document.querySelector('#btn1');
+            var titreElt = document.querySelector('h1');
+
+
+
+        //3 Je créer ma fonction
+             function changeColor(){
+                paragrapheElt.classList.toggle('important');
+            }
+
+            function changeBorder(){
+                if(titreElt.classList.contains('danger')){
+                    titreElt.classList.remove('danger');
+                } else {
+                    titreElt.classList.add('danger');
+                }
+            }
+
+
+        // 2 Pose d'un écouteur d'événement
+            btnElt.addEventListener('click', changeColor);
+
+            btnElt2.addEventListener('dblclick', changeBorder);
+
+   
+
+
+
+    </script>
+
+</body>
+
+</html>
+
+
+

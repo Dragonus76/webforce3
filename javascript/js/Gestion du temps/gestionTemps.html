@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>javascript - Gestion du temps</title>
+</head>
+<body>
+
+	<header>
+		<h1>GESTION DU TEMPS</h1>
+		<strong><p> compteur</p></strong>
+	</header>
+	<script type="text/javascript">
+		//EXECUTER DU CODE APRES UN TEMPS DETERMINE EN ms
+		function direBonjour(){ //créer ma fonction a executer apres un certain temps
+			alert("Hello")
+		}
+
+	window.setTimeout(direBonjour, 3000); //Appeler ma fonction setTimeout et indiquer le temps en milliseconde
+
+	//Executer du code a répétition a interval determiné en ms
+
+
+	var timer = 0;
+
+	function incrementTimer(){
+		timer++;
+		document.querySelector('p').textContent= timer;
+
+	}
+	/*setInterval exécute du code a interval régulier et return un id unique*/
+	var idInterval = window.setInterval(incrementTimer, 1000);
+	//on peut stopper l'ececution de cet interval avec window.clearInterval(id)
+
+	window.clearInterval(idInterval);
+
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>

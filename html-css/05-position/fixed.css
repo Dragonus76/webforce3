@@ -1,0 +1,22 @@
+nav{
+	background-color:#dea5a5;
+	padding:10px;
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+}
+#contenu{
+	border:2px solid #336699;
+	padding:10px;
+	margin:50px 0 75px 0;
+}	
+
+.retour{
+	position:fixed;
+	bottom: 10px;
+	right: 10px;
+	background-color:rgba(204,204,204,0.25);
+	text-align:center;
+	padding:20px;
+}

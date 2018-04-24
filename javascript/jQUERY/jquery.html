@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Jquery-Javascript</title>
+		<style>
+			.red{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<button>Afficher/Masquer le paragraphe</button>
+		<h1>JQuery</h1>
+
+		<p style="display: none">Hello !</p>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			//Selelectionner un élément
+			var title = $('h1'); 
+			var paragraph = $('p');
+			var btn = $('button');
+
+			//Modifier le DOM
+			title.text('Super jQuery');
+			paragraph.html("<i>Salut !!!!!</i>");
+
+			//Manipulation des class
+			title.addClass('red');
+			//title.removeClass();
+			//title.toggleClass();
+			//title.hasClass(); //(true ou false) selon les paramètres 
+			paragraph.css('display', 'block');
+
+			function hideP(){
+				if(paragraph.is(':hidden')){
+					paragraph.slideDown();
+				} else {
+					paragraph.slideUp();
+				}
+				
+			}
+
+			btn.on('click', hideP);
+
+			
+
+
+
+		</script>
+	</body>
+</html>

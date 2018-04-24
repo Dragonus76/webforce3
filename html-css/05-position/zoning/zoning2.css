@@ -1,0 +1,38 @@
+#container{
+	background: #ccc;
+	margin: 0 auto;
+	width: 1000px;
+	color: #fff;
+}
+header{
+	background: #A4409A;
+	min-height:80px;
+}
+nav{
+	background:yellow;
+	min-height: 30px;
+}
+.a{
+	background: red;
+	min-height: 500px;
+	width: 75%;
+	float:left;
+}
+.b{
+	background: blue;
+	min-height: 500px;
+	width: 25%;
+	float:left;
+}
+footer{
+	background:#E80B28;
+	min-height:60px;
+}
+.clear{clear:both;}
+
+
+
+
+
+
+

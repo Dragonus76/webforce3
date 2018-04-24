@@ -1,0 +1,43 @@
+#conteneur{
+	margin:0 auto;
+	width:80%;
+	max-width:1200px;
+	border:2px solid black;
+	font-size:1em;/* taille par default de l'utilisateur */
+}
+header{
+	background:#f6523f;
+	height:15vh;/* pourcentage de la valeur de l'écran */
+}
+nav{
+	background:#653;
+	height:5vh;
+}
+section{
+	font-size:1.5em;
+	margin:2%;
+}
+.a{
+	background:#369;
+}
+.b{
+	background:#767676;
+}
+.c{
+	background:#fda500;
+}
+.d{
+	background:#aa2355;
+}
+.a, .b, .c, .d{
+	float:left;
+	width:50%;
+	height:28vh;
+}
+footer{
+	background:#32f65f;
+	height:5vh;
+}
+.clear{
+	clear:both;
+}

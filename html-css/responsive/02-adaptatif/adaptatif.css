@@ -1,0 +1,27 @@
+body{
+	background:lightgrey;
+}
+.adaptatif{
+	background:orange;
+	color:#fff;
+	padding:10px;
+	width:350px;
+}
+@media (min-width:768px){
+	body{
+		background:grey;
+	}
+	.adaptatif{
+		width:730px;
+	}
+}
+@media (min-width:992px){
+	.adaptatif{
+		width:970px;
+	}
+}
+@media (min-width:1200px){
+	.adaptatif{
+		width:1170px;
+	}
+}

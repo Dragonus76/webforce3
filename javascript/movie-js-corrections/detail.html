@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie</title>
+	<!-- Charger Bootstrap CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Charger notre style.css (personnalisation) -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="UTF-8">
+</head>
+<!--***************************** BODY *******************************-->
+<body>
+	<nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          Projet MovieJS
+        </a>
+      </div>
+    </div>
+  </nav>
+
+	
+    
+  
+  <!-- SECTION DES DETAILS DU FILM (Bloc image, titre, resume, durée, acteurs, réalisateur) -->
+    <section class="row details-movie">
+      
+        <div class="container">
+          <!-- INFO 1 à afficher : Titre du film -->
+          <div>
+            <h1 class="details-movie-title"><a href="index.html"><i class="glyphicon glyphicon-chevron-left"></i></a><span></span></h1>
+            <hr>
+          </div>
+          <!-- INFO 2 à afficher : Image du film -->
+          <div class="col-lg-4 text-center poster">
+              <img class="img-thumbnail" src="" alt="" />
+          </div>
+
+          <div class="col-lg-8 data">
+            <!-- INFO 3 à afficher : Résumé du film -->
+            <p class="title">Résumé</p>
+            <p class="description text-justify">
+               <br>
+               <i class="glyphicon glyphicon-arrow-right"></i><a data-toggle="modal" data-target="#myModal" href="#">Voir la bande Annonce</a>
+            </p>
+
+
+            <!-- INFO 4 à afficher : Genre du film -->
+            <p class="title">Genre</p>
+            <p class="genre text-justify"></p>
+            
+            <!-- INFO 5 à afficher : La liste des acteurs -->
+            <p class="title">Les acteurs</p>
+            <p class="actors-list text-justify"></p>
+           
+            <!-- INFO 6 à afficher : Le réalisateur -->
+            <p class="title">Réalisateur</p>
+            <p class="director text-justify"></p>
+
+            <!-- INFO 7 à afficher : Durée du film -->
+            <p class="title">Durée</p>
+            <h4 class="duration"><span></span></h4>
+
+            <!-- INFO 8 à afficher : Date de sortie -->
+            <p class="title">Date de sortie</p>
+            <h4 class="date"><span></span></h4>
+            
+          </div> 
+
+        </div> <!-- FIN CONTAINER -->
+    </section><!-- SECTION DES DETAILS DU FILM -->
+
+          
+    <!-- Bloc AVIS (Formulaire de commentaires) -->
+    <section class="row">
+      <div class="container">
+
+      <div class="col-lg-8 col-lg-offset-2 col-md-12">
+        <h2>Laissez votre Avis</h2>
+      </div>
+
+      <!-- Le formulaire d'avis -->
+      <div class="col-lg-8 col-lg-offset-2 col-md-12">
+      <form action="#">
+        <div class="form-group">
+          <h3 class="message"></h3>
+          <input type="text" class="form-control" name="firstname" placeholder="Votre prénom">
+          <p class="error"></p>
+        </div>
+        <div class="form-group">
+          <textarea type="password" class="form-control" name="comment" placeholder="Votre avis"></textarea>
+          <p class="error"></p>
+        </div>
+       
+        <button type="submit" class="btn btn-default">Envoyer</button>
+      </form>
+      </div>
+      <!-- Fin du formulaire d'avis -->
+    
+    </div>
+
+  </section> 
+
+  
+
+<!-- modal -->
+  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModal">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+          <div class="row video">
+  
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin modal -->
+
+
+	
+  <!--********************** CHARGEMENT DU JS  ************************* -->
+
+
+	<!-- Charger jquery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous">  
+  </script>
+
+	<!-- Charger bootstrap js  -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"  
+          crossorigin="anonymous">  
+  </script>
+
+	<!-- Charger utilities.js qui contient une fonction utilitaire qui permet de récupérer "un morceau d'url"  -->
+  <script src="js/utilities.js"></script>
+  <!-- Charger les datas des films  -->
+  <script src="js/data.js"></script>
+  <!-- Charger notre JS  -->
+	<script src="js/detail.js"></script>
+</body>
+
+</html>

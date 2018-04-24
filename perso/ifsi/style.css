@@ -1,0 +1,148 @@
+/***************** Prépa Ifsi ****************/
+body{
+	font-family: 'Lobster', cursive;
+	background:#EEEEEE;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Ubuntu', sans-serif;
+}
+#section .jumbotron{
+	text-align:center;
+	margin-top:30px;
+	height:500px;
+	font-size:40px;
+}
+#section .jumbotron h1{
+	color:#d81c1c;
+	margin-bottom:10px;
+	margin-top:50px;
+}
+
+.jumbotron .btn{
+	background:#337AB7;
+	width:250px;
+	display:inline-block;
+}
+.jumbotron .btn:hover{
+	background:#5CB85C;
+}
+
+.navbar{
+	background:#d81c1c;
+	color:#000;
+}
+
+.btn2{
+	background:#d81c1c;
+	width:250px;
+	display:inline-block;
+	margin-bottom:5px;
+	margin-top:50px;
+}
+.navbar-inverse .navbar-brand{
+	color:white;
+	font-size:2em;
+}
+.navbar-inverse .navbar-brand:hover{
+	background:#EEEEEE;
+}
+.nav .dropdown:hover{
+	background:#EEEEEE;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color:white;
+}
+.nav #contact:hover{
+	background:#EEEEEE;
+}
+
+@media(min-width:768px){
+	#section .jumbotron h1{
+	color:#d81c1c;
+	margin-top:120px;
+	margin-bottom:40px;
+	font-size:70px;
+	}
+	.jumbotron .btn{
+	background:#337AB7;
+	width:350px;
+	height:70px;
+	display:inline-block;
+	line-height:50px;
+	}
+	.btn2{
+	background:#d81c1c;
+	width:350px;
+	display:inline-block;
+	margin-bottom:5px;
+	margin-top:50px;
+	height:70px;
+	line-height:50px;
+	}
+}
+
+
+@media(min-width:1024px){
+	#section .jumbotron h1{
+	color:#d81c1c;
+	margin-top:120px;
+	margin-bottom:100px;
+	font-size:100px;
+	}
+	.jumbotron .btn{
+	background:#337AB7;
+	width:400px;
+	height:90px;
+	display:inline-block;
+	line-height:65px;
+	}
+	.btn2{
+	background:#d81c1c;
+	width:400px;
+	display:inline-block;
+	margin-bottom:5px;
+	margin-top:50px;
+	height:90px;
+	line-height:50px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

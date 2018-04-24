@@ -1,0 +1,39 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	margin: 0 auto;
+	
+}
+#container{
+	margin: 0 auto;
+	width: 800px;
+}
+#photo-list{
+	list-style-type: none;
+}
+#photo-list li{
+	display: inline-block;
+	margin: 1em;
+	padding: 0.5em;
+	float: left;
+}
+#photo-list li:hover{
+	background: silver;
+	transition: background-color 0.8s;
+}
+#photo-list li{
+	padding: 5px;
+
+}
+.clear{
+	clear: both;
+}
+
+#total i{
+	font-weight: bold;
+	color: red;
+}
+.selected{
+	background: forestgreen;
+}

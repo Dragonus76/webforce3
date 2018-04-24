@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>javascript - Objet Event</title>
+</head>
+<body>
+
+	<header>
+		<h1>Objet Event</h1>
+		<strong><p> compteur</p></strong>
+	</header>
+	<script type="text/javascript">
+
+		function maFonction(event){
+			console.log(event.keyCode);//retourne l'élément h1
+			if(event.keyCode == 32 ){
+				alert("vous avez pressé la barre d'espace");
+			} else if (event.keyCode == 37){
+					alert("vous avez pressé la flêche de gauche");
+			}else if (event.keyCode == 39){
+					alert("vous avez pressé la flêche de droite");
+			}else{
+				alert('vous avez pressé une autre touche');
+			}
+		}
+
+
+		document.addEventListener("keyup", maFonction);
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.taillefixe{
+	border: 2px solid #cb3d3d;
+	width: 1000px;
+}
+.taillevariable{
+	border: 2px solid #336699;
+	width: 80%;
+}
+/* une taille représentée en pourcentage s'adaptera toujours à la taille de son parent (l'element html qui le contient) */
+.parent{
+	/*width:80%;*/
+	border: 2px solid #000;
+}

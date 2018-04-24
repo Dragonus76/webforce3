@@ -1,0 +1,22 @@
+div{
+	border: 1px solid red;
+	width: 960px;
+	margin: 100px auto;
+	padding: 50px;
+}
+
+div img{
+	width: 250px;
+	/* height: 250px; */
+	margin: 10px;
+	border: 2px dashed purple;
+	transition: 1s;
+}
+div img:hover{
+	width: 300px;
+}
+span{
+	position: relative;
+	right:70px;
+	bottom:150px;
+}

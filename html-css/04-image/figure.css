@@ -1,0 +1,95 @@
+*{/*Selecteur universel désignant l'ensemble des balises*/
+	margin:0;
+	padding:0;
+}
+figure{
+	width:300px;
+	height:215;
+	border:3px solid #c0c0c0;
+	border-radius: 8px;
+	position:relative;/*parent relative pour placer l'enfant en absolute*/
+	overflow:hidden;/*overflow permet de gerer l'affichage de ce qui depasse du bloc(visible, hidden, scroll)*/
+	
+}
+img{
+	display:block;
+	border-radius:4px;
+	width:300px;
+	transition:1s ease-in;
+}
+figure:hover img{
+	transform:scale(1.2) /* rotate(1turn) */;
+}
+figcaption{/*On utilise la valeur rgba de facon à profiter d'une transparence*/
+	background-color:rgba(0,0,0,0.55);
+	padding:5px 5px;
+	text-align:center;
+	position:absolute;/*absolute pour placer la legende dans le cadre de figure*/
+	bottom: -35px; /*on place la legende hors cadre*/
+	left:0;
+	transition:1s;
+	
+	/* 4 propriétés possible pour définir les coordonées top/bottom left/right (en px ou en %)*/
+}
+a{
+	color:#fff;
+	text-decoration:none;
+}
+figure:hover figcaption{
+	bottom:0; 
+	
+}
+
+/*
+3 formats d'image pour le web
+-jpeg/jpg: format à fort taux de compression. Ne supporte pas la transparence et ne peut pas etre animé.
+-gif: format a faible taux de compression,  gère la transparence (de facon médiocre), il est célebre pour ses animations.
+-png: taux de compression moyen, en revenche la transparence esr bien rendue.
+
+Il existe un autre format particulier: 
+le svg: c'est un format qui affiche une image non pas crée en pixels,  mais une image vectorielle (issue d(une formule mathématique). Elle peut être zoomée/dézoomée sans subir de pixellisation.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

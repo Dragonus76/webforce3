@@ -1,0 +1,20 @@
+body{
+	margin:0;
+}
+div{
+	margin:0 auto;
+	height:1200px;
+	width:960px;
+	background-color: #052150; 
+	background-image:url(images/fond1.jpg); background-position:center -10px;
+	background-size:50%;
+	background-repeat: no-repeat;
+}	/*avant le slash c'est la taille, apres c'est la valeur*/
+	/* 
+		background-color: #08265B;
+		background-image: url(../00-partage/images/fond1.jpg);
+		background-position: 0 -330px;
+		background-size: 100%;
+		background-repeat: no-repeat; (ou repeat-x et repeat-y)
+	*/
+	

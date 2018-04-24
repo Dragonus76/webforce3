@@ -1,0 +1,112 @@
+body{
+	background-color: #F1F1F1;
+}
+
+/* *********POLICES************ */
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Merienda', cursive;
+}
+#contenu{
+	margin:0 auto;
+}
+
+/* ***********HEADER********** */
+#header .navbar{
+	background: #061339;
+	margin:0;
+	padding: 0;
+}
+
+#header p{
+	color: #fff;
+	font-family: 'Merienda', cursive;
+}
+/* ***********SECTION 1********** */
+#section1{
+	background: url('img/background.jpg');
+	height: 150px;
+	margin-top: 0;
+}
+#section1 h1{
+	color: #fff;
+	font-size: 30px;
+	padding-top: 30px;
+	text-shadow: 2px 2px black;
+}
+/* ***********SECTION2********** */
+			/*FORMULAIRE*/
+#section2{
+	margin:40px;
+}
+#section2 h2{
+	font-size: 1.6em;
+	color: #2F4073;
+	margin-top: 0;
+	padding: 5px;
+}
+#section2 form{
+	border: 1px solid silver;
+	width: 100%;
+	height: 350px;
+	margin: 0 auto;
+	border-radius: 4px 4px;
+	padding: 15px;
+}
+#section2 select{
+	width: 100%;
+	padding: 5px;
+	border-radius: 4px 4px;
+}
+#section2 textarea{
+	width: 100%;
+	padding: 5px;
+	height: 160px;
+	border-radius: 4px 4px;
+}
+#section2 input{
+	width: 100%;
+	padding: 5px;
+	margin-top: 10px;
+	border-radius: 4px 4px;
+}
+/************CAROUSEL***********/
+#carouselCss{
+	margin-top: 20px;
+}
+
+/* ***********SECTION 3********** */
+#section3{
+	background-color: #DDDDDD;
+}
+#section3 h3{
+	color: #2F4073;
+	font-size: 2em;
+}
+#section3 p{
+	width: 100%;
+	font-size: 1.1em;
+	padding-left: 5px;
+}
+
+#photoChat{
+	background-color: #7885A5;
+	padding: 0;
+}
+#section3:hover #photoChat{
+	background-color:#061339 ;
+}
+
+
+/* ***********FOOTER********** */
+#footer{
+	background: #061339;
+	height: 30px;
+	color: #fff;
+	line-height: 30px;
+	padding-right: 30px;
+}
+/* *******CLASS POUR js******* */
+.borderRed{
+	border: 1px solid red;
+}
+

@@ -1,0 +1,46 @@
+body{
+	margin:0;
+	color: #fff;
+}
+#conteneur{
+	width: 1000px;
+	margin: 0 auto;
+	background: #ccc;
+}
+header{
+	background: #A4409A;
+	min-height: 80px;
+}
+nav{
+	background: yellow;
+	min-height: 30px;
+}
+.a,.b,.c{
+	min-height: 500px;
+	color: grey;
+	font-size: 50px;
+	float:left;
+	padding:20px;
+	border: 2px solid black;
+}
+.a,.c{
+	width: 206px;
+	background: red;
+}
+.b{
+	width: 456px;
+	background: blue;
+}
+footer{
+	background: #E80B28;
+	min-height: 60px;
+}
+.clear{ clear: both;}
+
+
+
+
+
+
+
+

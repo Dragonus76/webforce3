@@ -1,0 +1,50 @@
+body{
+	
+}
+#container{
+	margin: 0 auto;
+	width: 960px;
+}
+#container .toolbar{
+	text-align: center;
+}
+#container .toolbar i{
+	border: 1px solid black;
+	margin: 5px 5px;
+	padding: 8px;
+}
+#slider figcaption h2{
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+	margin-top: -15px;
+}
+#slider{
+	margin: 0 auto;
+	text-align: center;
+	width: 500px;
+}
+#slider img{
+		width: 100%;
+		margin: 25px;
+		border: 1px black solid;
+		padding: 10px;
+		border-radius: 5px 5px;
+		transform: rotate(8deg);
+}
+#toolbar-toggle a{
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	color: lightseagreen;
+}
+#toolbar-toggle i{
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.hide{
+	display: none;
+}
+

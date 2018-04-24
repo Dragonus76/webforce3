@@ -1,0 +1,83 @@
+.navbar, footer {
+	background: #061339;
+}
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-brand {
+	font-family: 'Merienda', cursive;
+	color: #fff !important;
+}
+footer {
+	text-align: right;
+	padding-right: 20px;
+	color: #fff;
+}
+section.hero {
+ 	background: url(../img/background.jpg);
+ 	background-repeat: repeat;
+ 	text-align: center;
+ 	padding-top: 50px;
+ 	padding-bottom: 50px;
+ 	
+}
+section.hero h1 {
+	color: #fff;
+	font-family: 'Merienda', cursive;
+	text-shadow: 1px 1px 3px #000;
+}
+section.sliderandform, section.about {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+section.sliderandform {
+	background: #f1f1f1;
+}
+.carousel {
+	margin-bottom: 10px
+}
+section.about {
+	background: #DDD;
+}
+section.about h2{
+	color: #2F4073;
+	font-family: 'Merienda', cursive;
+}
+.about .image {
+	background: #7885a5;
+	display: inline;
+}
+.about:hover .image {
+	background: #06b4e0;
+}
+h4.formTitle {
+	text-align: center;
+	font-family: 'Merienda', cursive;
+	font-weight: bold;
+	color: #2F4073;
+	margin-top: 20px;
+	clear: both;
+}
+form {
+	background: #f5f5f5;
+	border:1px solid #e1e2e3;
+	padding:10px;
+	border-radius: 5px;
+	margin-top: 25px;
+}
+.error {
+	border-color: #ff0000;
+}
+.successMessage {
+	display: none;
+	color: #449D44;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    width: 100%;
+}
+.form-control:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
+
+

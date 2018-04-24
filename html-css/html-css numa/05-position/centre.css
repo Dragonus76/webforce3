@@ -1,0 +1,15 @@
+#conteneur{
+	margin: 0 auto;
+	width: 960px;
+	background-color: cyan;
+	padding: 30px;
+	height: 458px;
+	
+}
+.a,.b{
+	border: 1px solid;
+	width: 450px;
+	height: 150px;
+	display: inline-block;
+	letter-spacing: 10px;
+}

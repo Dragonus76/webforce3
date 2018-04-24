@@ -1,0 +1,18 @@
+div{
+	margin-bottom: 20px;
+}
+label{
+	margin-right: 10px;
+	display: inline-block;
+	width: 100px;
+}
+textarea{
+	width: 400px;
+	height: 150px;
+	resize: vertical;
+	/* horizontal / vertical / none / both */
+}
+input[type=text]{
+	border-color: green;
+	height: 20px;
+}

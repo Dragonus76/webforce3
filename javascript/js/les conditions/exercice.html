@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Exercice</title>
+		<link rel="stylesheet" href="">
+	</head>
+	
+	<body>
+	<h1>Hello JS !</h1>
+	<h1>Exercice</h1>
+
+		<script src="exercice.js"></script>
+	</body>
+	
+</html>
+
+<!-- ## Enoncé
+
+L'utilisateur saisit un montant HT et peut saisir s'il le souhaite une remise, le résultat TTC s'affiche en HTML.
+
+## Remarques
+
+* L'utilisateur doit pouvoir répondre oui ou yes à la demande de remise.
+* SI l'utilisateur répond oui ou yes 
+* alors on lui demande la saisie du pourcentage de la remise
+
+* La saisie de la remise se fait en pourcentage, et elle s'applique sur le montant HT autrement il y a fraude à la TVA ;-)
+
+* Au moment de l'affichage on doit connaître le pourcentage de remise, s'il y en a eu une, ou bien savoir le fait qu'aucune remise n'a été appliquée.
+
+* Quand votre code est fonctionnel, FACTORISEZ-LE :
+Factoriser du code consiste à éviter de répéter les mêmes istructions. 
+Ici, il ne faut pas répéter le calcul du montant TTC final.
+
+
+RAPPEL CALCULS : 
+// Calculer le montant de la TVA
+montant_tva = montant_ht * (TAUX_TVA/100);
+
+// Calculer le montant TTC
+montant_ttc = montant_ht + montant_tva;
+
+// Redéfinir le montant HT APRES remise
+montant_ht = montant_ht - (montant_ht * pourcentage_remise / 100);
+
+
+
+<script>
+'use strict';   // Mode strict du JavaScript
+
+// Déclaration d'une constante.
+const TAUX_DE_TVA = 20.0;
+
+// Déclaration de cinq variables.
+var demandeRemise;
+var montantHT;
+var montantTTC;
+var montantTVA;
+var pourcentageRemise;
+
+
+// Demande le montant HT à l'utilisateur.
+montantHT = window.prompt('Quel est le montant HT ?');
+montantHT = parseFloat(montantHT);
+
+// Demande s'il y a une remise l'utilisateur.
+demandeRemise = window.prompt('Souhaitez-vous une remise ?');
+
+// Est-ce que l'utilisateur souhaite une remise ?
+if(demandeRemise == 'oui' || demandeRemise == 'yes')
+{
+    // Demande le pourcentage de remise à l'utilisateur.
+    pourcentageRemise = parseFloat(window.prompt('Montant de la remise en % :'));
+
+    // Mise à jour du montant HT en appliquant une remise.
+    montantHT = montantHT - (montantHT * pourcentageRemise / 100);
+
+    /*
+     * La ligne de code ci-dessus peut également s'écrire comme ceci :
+     *
+     * montantHT -= montantHT * pourcentageRemise / 100;
+     */
+}
+
+
+// Calcul du montant de TVA et du montant TTC final.
+montantTVA = montantHT * TAUX_DE_TVA / 100;
+montantTTC = montantHT + montantTVA;
+
+// Affichage du résultat directement dans la page HTML.
+document.write('<p>Pour un montant HT de ' + montantHT + ' € il y a ' + montantTVA + ' € de TVA.</p>');
+document.write('<p>Le montant TTC est donc de ' + montantTTC + ' €.</p>');
+
+
+
+if(demandeRemise == 'oui' || demandeRemise == 'yes')
+{
+    document.write('<p>Une remise de ' + pourcentageRemise + '% a été appliquée sur le montant HT.</p>');
+}
+else
+{
+    document.write("<p>Aucune remise n'a été appliquée.</p>");
+}
+ -->
